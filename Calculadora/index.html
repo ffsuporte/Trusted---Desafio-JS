@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Calculadora - trusted Academy</h1>
+    <input
+      type="number"
+      name="numero1"
+      id="n1"
+      placeholder="Entre com um numero"
+    />
+    <input type="text" name="Operador" id="op" value=" " disabled />
+    <input
+      type="number"
+      name="numero2"
+      id="n2"
+      placeholder="Entre com um numero"
+    />
+    <button
+      type="button"
+      name="+"
+      id="oper"
+      value="+"
+      onclick="calculate(this)"
+    >
+      +
+    </button>
+    <button
+      type="button"
+      name="-"
+      id="oper"
+      value="-"
+      onclick="calculate(this)"
+    >
+      -
+    </button>
+    <button
+      type="button"
+      name="x"
+      id="oper"
+      value="*"
+      onclick="calculate(this)"
+    >
+      *
+    </button>
+    <button
+      type="button"
+      name="/"
+      id="oper"
+      value="/"
+      onclick="calculate(this)"
+    >
+      /
+    </button>
+
+    <input type="text" id="result" disabled placeholder="Resultado" />
+  </body>
+</html>
